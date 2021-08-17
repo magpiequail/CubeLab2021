@@ -1,0 +1,34 @@
+
+planet_fox.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fox_body
+  rotate: true
+  xy: 33, 6
+  size: 22, 46
+  orig: 25, 48
+  offset: 2, 1
+  index: -1
+fox_eye
+  rotate: true
+  xy: 75, 90
+  size: 12, 7
+  orig: 14, 9
+  offset: 1, 1
+  index: -1
+fox_planet
+  rotate: false
+  xy: 2, 30
+  size: 71, 72
+  orig: 73, 74
+  offset: 1, 1
+  index: -1
+fox_tail
+  rotate: true
+  xy: 2, 2
+  size: 26, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6724246416087349215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6783380369971550712}
+  - component: {fileID: 8656779299684492547}
+  - component: {fileID: 4086239625327011597}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6783380369971550712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6724246416087349215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8656779299684492547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6724246416087349215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3264b3899089643a657098af4bdb62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfxAudioMixerGroup: {fileID: -305919194278741918, guid: c831a6110a99ddd4182ccedff26cb2be,
+    type: 2}
+  sounds:
+  - name: Lobby_incu_steam
+    clip: {fileID: 8300000, guid: 3bdcec3dda6cadd4b858de630ec2a93e, type: 3}
+    volume: 0.722
+    loop: 0
+    source: {fileID: 0}
+  - name: Lobby_incu_open
+    clip: {fileID: 8300000, guid: efa9ac91e07bee84d9c6619f5195d552, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Lobby_incu_ambient
+    clip: {fileID: 8300000, guid: 2c0467cb25d81d54b845efeb2b48f434, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Lobby_door_open
+    clip: {fileID: 8300000, guid: 033d4b0a4702da44198ba338b42e0cee, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Lobby_door_close
+    clip: {fileID: 8300000, guid: 7df323d1aa0aea44aadfa64d8409572f, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Lobby_main_connect
+    clip: {fileID: 8300000, guid: 9575ff749c7aad845befa72872f83108, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Lobby_main_pc
+    clip: {fileID: 8300000, guid: 1bbe650b55971314d845d7c2ea79f871, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: End_fail_noise
+    clip: {fileID: 8300000, guid: d18a72499ba58dd40a0e379085d24c94, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: UI_select
+    clip: {fileID: 8300000, guid: 93ea5a74ab47e4b468b006476bdf73c4, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: UI_change
+    clip: {fileID: 8300000, guid: 63b80953a89401a46b3421b4caf9ff13, type: 3}
+    volume: 0.7
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_1
+    clip: {fileID: 8300000, guid: 6a38cead5dfe1cb44bbca74f05bbb66c, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_2
+    clip: {fileID: 8300000, guid: 3a6caeacba970d24c92ee5de2bfec03c, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_3
+    clip: {fileID: 8300000, guid: 02aa73efa7b96b645997b69b6b1a83d4, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_4
+    clip: {fileID: 8300000, guid: 2db7f412794f02144a4dd87350616f3c, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_5
+    clip: {fileID: 8300000, guid: 548b7e9ab698d9f41acf2eb974d55d48, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_6
+    clip: {fileID: 8300000, guid: 9d472464ace6bfb4c9f5869d8ad6952f, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_7
+    clip: {fileID: 8300000, guid: 41fb36b1ee24ca64fad2f3fcf123ff24, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_8
+    clip: {fileID: 8300000, guid: 2a9b7cdcb30b0464e90214a84d92fc94, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_battery
+    clip: {fileID: 8300000, guid: 209d85b7fa8d2984a95519a898baed36, type: 3}
+    volume: 0.565
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_door
+    clip: {fileID: 8300000, guid: 7463e5e78bb6baa4b8caeec3645d5ae7, type: 3}
+    volume: 0.237
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_key
+    clip: {fileID: 8300000, guid: 429a207f1a5dffd44a5c7ca8e2d7207e, type: 3}
+    volume: 0.468
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_Teleport
+    clip: {fileID: 8300000, guid: affa7a24e676a924bbcb059772c8e001, type: 3}
+    volume: 0.283
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_LaserOn
+    clip: {fileID: 8300000, guid: 86ee0c228c3940d40af4fa993614162c, type: 3}
+    volume: 0.248
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_LaserOff
+    clip: {fileID: 8300000, guid: 86ee0c228c3940d40af4fa993614162c, type: 3}
+    volume: 0.237
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_elevator
+    clip: {fileID: 8300000, guid: c6b5153effc4f0942a147cd5c8647de4, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_clear
+    clip: {fileID: 8300000, guid: 4ea46be2670f5464d8abe4f338e7c29b, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_fail
+    clip: {fileID: 8300000, guid: 24ed05a7b1447644297c0c229e1d2f6a, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: LobbyBgm
+    clip: {fileID: 8300000, guid: 939e95963754cab4495156ab7a4f53c3, type: 3}
+    volume: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: StageBgm
+    clip: {fileID: 8300000, guid: 8d13d39d411110048a510ef452400976, type: 3}
+    volume: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 6a6421e0a33db304eb5df406894e88c7, type: 3}
+    volume: 0.786
+    loop: 0
+    source: {fileID: 0}
+  footsteps:
+  - name: Ingame_foot_1
+    clip: {fileID: 8300000, guid: 6a38cead5dfe1cb44bbca74f05bbb66c, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_2
+    clip: {fileID: 8300000, guid: 3a6caeacba970d24c92ee5de2bfec03c, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_3
+    clip: {fileID: 8300000, guid: 02aa73efa7b96b645997b69b6b1a83d4, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_4
+    clip: {fileID: 8300000, guid: 2db7f412794f02144a4dd87350616f3c, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_5
+    clip: {fileID: 8300000, guid: 548b7e9ab698d9f41acf2eb974d55d48, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_6
+    clip: {fileID: 8300000, guid: 9d472464ace6bfb4c9f5869d8ad6952f, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_7
+    clip: {fileID: 8300000, guid: 41fb36b1ee24ca64fad2f3fcf123ff24, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ingame_foot_8
+    clip: {fileID: 8300000, guid: 2a9b7cdcb30b0464e90214a84d92fc94, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+--- !u!81 &4086239625327011597
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6724246416087349215}
+  m_Enabled: 1

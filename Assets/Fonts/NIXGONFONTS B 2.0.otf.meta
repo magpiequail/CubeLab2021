@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 9f32ff8d52189bb44b8c8777c583610a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: NIXGONFONTS V2.0
+  fontNames:
+  - NIXGONFONTS V2.0
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 521d60a134d8e5e449ced5b99bc4d56b, type: 3}
+  - {fileID: 12800000, guid: 508edac25632b57458ed3bb71f225abb, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

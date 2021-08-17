@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Character
+  - Door
+  - Stage Clear
+  - Game Over
+  - Pause
+  - Stars
+  - Grid
+  - StageSelect
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Past Camera
+  - Present Camera
+  - Accessible Floor
+  - Left Camera
+  - Right Camera
+  - Top Left Camera
+  - Bottom Left Camera
+  - Top Right Camera
+  - Bottom Right Camera
+  - Bloom
+  - BackgroundCam
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3265683145
+    locked: 0
+  - name: Ceiling
+    uniqueID: 3074491963
+    locked: 0
+  - name: Environtment
+    uniqueID: 1287517597
+    locked: 0
+  - name: Object
+    uniqueID: 905724561
+    locked: 0
+  - name: Keys
+    uniqueID: 1117788881
+    locked: 0
+  - name: Character
+    uniqueID: 2070166501
+    locked: 0

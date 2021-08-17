@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8502901378559333914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9133410014858287188}
+  - component: {fileID: 8616839333239792854}
+  - component: {fileID: 5026729243466328649}
+  - component: {fileID: -92846712665676191}
+  - component: {fileID: 4676232670409894582}
+  - component: {fileID: 1144692805348646661}
+  m_Layer: 0
+  m_Name: SceneController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9133410014858287188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8502901378559333914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8616839333239792854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8502901378559333914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470833b6b1bd3774f8482264dd2da375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstBattery: 10
+  secondBattery: 10
+  thirdBattery: 10
+--- !u!114 &5026729243466328649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8502901378559333914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b86eb320feafe34e9f5ddec3e2691ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  delayTillGameOver: 0
+  delayTillUI: 2
+  pauseUI: {fileID: 0}
+  optionUI: {fileID: 0}
+  stageSelectUI: {fileID: 0}
+--- !u!114 &-92846712665676191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8502901378559333914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 613c9978bf420544786611814159ec83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputTriggerTime: 0.5
+  inputWaitTime: 0.2
+  tileWorldPos: {x: 0, y: 0, z: 0}
+  clickedTilePos: {x: 0, y: 0, z: 0}
+  floorLayerMask:
+    serializedVersion: 2
+    m_Bits: 1056
+  path: []
+  delayTime: 0.3
+  startX: 0
+  startY: 0
+  endX: 0
+  endY: 0
+--- !u!114 &4676232670409894582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8502901378559333914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f91296db4ad650042a2ec97b6bdf2921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topLeftCam: {fileID: 0}
+  bottomLeftCam: {fileID: 0}
+  topRightCam: {fileID: 0}
+  bottomRightCam: {fileID: 0}
+--- !u!114 &1144692805348646661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8502901378559333914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8eb935d16de9d44592bdf11294cd9b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subtitle: {fileID: 0}
+  typingSpeed: 0
+  sentences: []
+  forHowLong: []
+  ttsAudio: []
+  whenSucceeded: 
+  succeededAudio:
+    name: 
+    clip: {fileID: 0}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  whenFailed: 
+  failedAudio:
+    name: 
+    clip: {fileID: 0}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  ttsAudioMixerGroup: {fileID: -1724727230147926245, guid: c831a6110a99ddd4182ccedff26cb2be,
+    type: 2}
+  howToConvey: 1
+  sceneID: 0
+  memoryPlaying: {fileID: 0}
