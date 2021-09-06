@@ -8,10 +8,7 @@ public class Teleporter : Interactables
     public GameObject otherTele;
     Teleporter otherT;
     public int floorOrCeiling; //0 = floor 1 = ceiling
-    //public GameObject attachedFloor;
-    //bool isCharOn;
-    //public bool isActivated = false;
-    //GameObject characterColl;
+
     public int posX;
     public int posY;
     public Animator teleAnim;
@@ -83,13 +80,16 @@ public class Teleporter : Interactables
         if (characterObj.GetComponent<Character>().isUnitMoveAllowed && CharactersMovement.isInputAllowed)
         {
 
-            //character is on the deactivated teleporter
-            /*if(Options.input == 1 && isCharOn && !isActivated)
+            RaycastHit2D hit = Physics2D.Raycast(this.transform.position, transform.forward);
+            if(hit.collider.tag == "Character")
             {
-                Debug.Log("can't play battery audio ");
-                return;
+                characterObj = hit.collider.gameObject;
             }
-            else*/
+            else
+            {
+
+            }
+
             {
                 for (int i = 0; i < teleArray.Length; i++)
                 {

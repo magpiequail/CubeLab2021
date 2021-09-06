@@ -47,10 +47,7 @@ public class BlockStat : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        /*isSpringCompleted = true;
-        blockSprite = gameObject.GetComponentInChildren<SpriteRenderer>();
-        
-        pushedPosition = new Vector3(blockPosition.x, blockPosition.y - springDepth, blockPosition.z);*/
+
         
     }
 

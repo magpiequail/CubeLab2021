@@ -3653,8 +3653,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd457d1677dc0ed43972117b163652ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rows: 6
   charOnFloor: {fileID: 0}
+  rows: 6
 --- !u!1001 &1383628000
 PrefabInstance:
   m_ObjectHideFlags: 0

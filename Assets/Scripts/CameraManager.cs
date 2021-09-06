@@ -25,17 +25,7 @@ public class CameraManager : MonoBehaviour
     void Update()
     {
         DetectCurrentCamera();
-        /*if (Input.GetMouseButtonDown(0))
-        {
-            DetectCurrentCamera();
 
-            //Vector3 worldPoint = currentCam.ScreenToWorldPoint(Input.mousePosition);
-            //RaycastHit2D hit = Physics2D.Raycast(worldPoint, transform.forward, 1000f);
-            //Debug.DrawRay(worldPoint, transform.forward * 10, Color.red);
-            
-        }*/
-
-        
     }
     private void DetectCurrentCamera()
     {

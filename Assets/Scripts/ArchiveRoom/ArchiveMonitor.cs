@@ -22,12 +22,14 @@ public class ArchiveMonitor : Interactables
     {
         if (Input.GetKeyDown(KeyCode.Space) && isActivated)
         {
+
             StartInteraction();
         }
     }
 
     public override void StartInteraction()
     {
+
         base.StartInteraction();
         monitorWindow.SetActive(true);
 

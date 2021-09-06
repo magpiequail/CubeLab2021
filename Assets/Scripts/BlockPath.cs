@@ -6,13 +6,7 @@ public class BlockPath : MonoBehaviour
 {
     public bool run = true;
 
-    //public int rows = 5;
-    //public float scaleX = 0.5f;
-    //public float scaleY = -0.25f;
-    
-    //public GameObject gridPrefab;
-    //public GameObject[,] gridArray;
-    //public Vector2 startingGrid = new Vector2(0, 0);
+
     public int startX;
     public int startY;
     
@@ -20,9 +14,7 @@ public class BlockPath : MonoBehaviour
     public float endX;
     public float endY;
     public List<GameObject> path = new List<GameObject>();
-    //public int charPosX = 2;
-    //public int charPosY = 2;
-    //public GameObject character;
+
 
     public float delayTime;
 
